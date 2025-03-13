@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 9px;
+   
+
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: palevioletred;
+    margin: 10px;
+    color: azure;
+    padding: 15px;
+}
+
+.ingles{
+    background: peru;
+}
+
+
+.rgb{
+    background: rgb(15, 107, 172);
+}
+
+
+.rgb2{
+    background: rgb(173% 22% 204%);
+}
+
+
+.rgb3{
+    background: rgb(182% 9% 119% /0.5);
+}
+
+
+.hex{
+    background: rgb(26, 174, 36);
+}
+
+.hex2{
+    background: rgb(80, 26, 174);
+}
+
+.gradiente1{
+    
+    background: linear-gradient(0deg, #80599b, #994343, #573302);
+}
+
+.gradiente2{
+    
+    background: linear-gradient(0deg, #77b43a, #f5fd1d, #fcb045);
+}
+.gradiente3{
+    
+    background: radial-gradient( circle at 100%, #3aa6b4, #1dbefd, #6a45fc);
+}
+.le{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#77b43a;
+    color: antiquewhite;
+}
+.li{
+    
+    background:#f00760;
+    color: rgb(48, 28, 2);
+}
