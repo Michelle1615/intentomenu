@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+background:rgb(241, 206, 5);
+}
+@media (min-width:400px) and (max-width:800px){
+    body{
+    
+        background:rgb(228, 47, 15);
+        }
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    body{
+    
+        background:rgb(31, 6, 168);
+        }
+}
+
+@media (min-width:1200px) and (max-width:1300px){
+    body{
+    
+        background:rgb(177, 95, 18);
+        }
+}
+
+@media (min-width:1300px) and (max-width:1500px){
+    body{
+    
+        background:rgb(7, 182, 59);
+        }
+}
+
+@media (min-width:1500px) and (max-width:160                                                                         00){
+    body{
+    
+        background:rgb(124, 161, 22);
+        }
+}
