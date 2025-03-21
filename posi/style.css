@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background: rgb(7, 22, 231);
+    border: 3px solid rgb(38, 32, 202);
+    margin: 10px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.estatico{
+    position: static;
+    top: 200px;
+    left: 200px;
+    background: rgb(7, 22, 231)
+}
+
+.relativo{
+    position: relative;
+    top: 100px;
+    left: 250px;
+    background: rgb(7, 22, 231)
+}
+
+.absoluto1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    opacity: 0.5;
+    background: rgb(7, 22, 231)
+}
+
+.absoluto2{
+    position: absolute;
+    top: 0px;
+  right: 0px;
+  background: rgb(7, 22, 231)
+}
+
+.absoluto3{
+    position: absolute;
+   bottom: 0px;
+   left: 0px;
+   background: rgb(7, 22, 231)
+}
+
+.absoluto4{
+    position: absolute;
+  bottom: 0px;
+  right: 0px;
+    background: rgb(17, 0, 255);
+}
+
+.fijo{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    background: rgb(7, 22, 231)s
+}
+
+.sticky{
+    position: sticky;
+    top: 200px;
+    left:  0px;
+    background: rgb(7, 22, 231)
+}
+
+.rela1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    opacity: 0.5;
+    background: rgb(7, 22, 231)
+}
+.rela2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    opacity: 0.5;
+    background: rgb(7, 22, 231)
+}
+.rela3{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    opacity: 0.5;
+    background: rgb(7, 22, 231)
+}
+.rela4{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    opacity: 0.5;
+    background: rgb(35, 21, 231);
+}
